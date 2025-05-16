@@ -22,6 +22,9 @@
         "selector": [
           {
             "filenamePattern": "*.exr"
+          },
+          {
+            "filenamePattern": "*.ktx2"
           }
         ],
         "priority": "default"
