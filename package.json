@@ -1,0 +1,51 @@
+{
+  "name": "exr-preview",
+  "displayName": "EXR Preview",
+  "description": "Preview EXR images in VSCode using OpenImageIO",
+  "version": "1.0.0",
+  "engines": {
+    "vscode": "^1.60.0"
+  },
+  "categories": [
+    "Other"
+  ],
+  "activationEvents": [
+    "onCustomEditor:exr-preview.exrPreview"
+  ],
+  "main": "./out/extension.js",
+  "icon": "logo.png",
+  "contributes": {
+    "customEditors": [
+      {
+        "viewType": "exr-preview.exrPreview",
+        "displayName": "EXR Preview",
+        "selector": [
+          {
+            "filenamePattern": "*.exr"
+          }
+        ],
+        "priority": "default"
+      }
+    ]
+  },
+  "scripts": {
+    "vscode:prepublish": "npm run compile",
+    "compile": "tsc -p ./",
+    "watch": "tsc -watch -p ./",
+    "pretest": "npm run compile",
+    "package": "vsce package",
+    "logo:png": "node rasterize.js"
+  },
+  "devDependencies": {
+    "@resvg/resvg-js": "^2.6.2",
+    "@types/node": "^22.15.18",
+    "@types/vscode": "^1.60.0",
+    "@vscode/vsce": "^3.4.0",
+    "typescript": "^5.8.3"
+  },
+  "publisher": "mate-h",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/exr-preview"
+  }
+}

@@ -1,0 +1,13 @@
+<svg width="256" height="256" viewBox="0 0 256 256" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="256" y2="256" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#3A3A3A"/>
+      <stop offset="1" stop-color="#23272E"/>
+    </linearGradient>
+  </defs>
+  <rect width="256" height="256" rx="56" fill="url(#bg)"/>
+  <text x="50%" y="46%" text-anchor="middle" fill="#FFD600" font-size="160" font-family="Arial Black, Arial, sans-serif" font-weight="bold" dy=".35em">E</text>
+  <!-- Eye/preview icon -->
+  <ellipse cx="192" cy="182" rx="32" ry="18" fill="#fff" stroke="#23272E" stroke-width="4"/>
+  <circle cx="192" cy="182" r="10" fill="#23272E"/>
+</svg>
