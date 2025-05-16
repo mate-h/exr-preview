@@ -46,7 +46,7 @@
     "@vscode/vsce": "^3.4.0",
     "typescript": "^5.8.3"
   },
-  "publisher": "mate-h",
+  "publisher": "mateh",
   "repository": {
     "type": "git",
     "url": "https://github.com/mate-h/exr-preview"

@@ -17,7 +17,7 @@ This VSCode extension allows you to preview EXR (OpenEXR) and KTX (Khronos Textu
 3. Run `pnpm compile` to build the extension
 4. Press F5 in VSCode to start debugging and test the extension
 
-Can be installed from the marketplace as well: https://marketplace.visualstudio.com/items?itemName=mate-h.exr-preview
+Can be installed from the marketplace as well: https://marketplace.visualstudio.com/items?itemName=mateh.exr-preview
 
 ## Usage
 
