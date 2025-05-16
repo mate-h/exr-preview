@@ -1,6 +1,8 @@
-# EXR Preview for VSCode
+# EXR and KTX Preview for VSCode
 
-This VSCode extension allows you to preview EXR (OpenEXR) images directly in VSCode using OpenImageIO's command line tools.
+This VSCode extension allows you to preview EXR (OpenEXR) and KTX (Khronos Texture) images directly in VSCode using OpenImageIO's command line tools.
+
+![Preview](./preview.png)
 
 ## Prerequisites
 
@@ -14,15 +16,17 @@ This VSCode extension allows you to preview EXR (OpenEXR) images directly in VSC
 3. Run `pnpm compile` to build the extension
 4. Press F5 in VSCode to start debugging and test the extension
 
+Can be installed from the marketplace as well: https://marketplace.visualstudio.com/items?itemName=mate-h.exr-preview
+
 ## Usage
 
-1. Open an EXR file in VSCode
-2. The file will automatically open in the EXR Preview editor
+1. Open an EXR or KTX file in VSCode
+2. The file will automatically open in the EXR or KTX Preview editor
 3. The preview will be generated using OpenImageIO and displayed in VSCode
 
 ## Features
 
-- Automatic preview generation for EXR files
+- Automatic preview generation for EXR and KTX files
 - Clean and simple interface
 - Uses OpenImageIO for high-quality previews
 

@@ -1,7 +1,7 @@
 {
   "name": "exr-preview",
-  "displayName": "EXR Preview",
-  "description": "Preview EXR images in VSCode using OpenImageIO",
+  "displayName": "EXR/KTX2 Preview",
+  "description": "Preview EXR/KTX2 images in VSCode using OpenImageIO",
   "version": "1.0.0",
   "engines": {
     "vscode": "^1.60.0"
@@ -18,7 +18,7 @@
     "customEditors": [
       {
         "viewType": "exr-preview.exrPreview",
-        "displayName": "EXR Preview",
+        "displayName": "EXR/KTX2 Preview",
         "selector": [
           {
             "filenamePattern": "*.exr"
@@ -49,6 +49,6 @@
   "publisher": "mate-h",
   "repository": {
     "type": "git",
-    "url": "https://github.com/yourusername/exr-preview"
+    "url": "https://github.com/mate-h/exr-preview"
   }
 }
