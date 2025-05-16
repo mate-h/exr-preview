@@ -6,8 +6,9 @@ This VSCode extension allows you to preview EXR (OpenEXR) and KTX (Khronos Textu
 
 ## Prerequisites
 
-- [VSCode](https://code.visualstudio.com/)
+- [VSCode](https://code.visualstudio.com/) or [Cursor](https://www.cursor.com/)
 - [OpenImageIO](https://github.com/OpenImageIO/oiio) installed with command line tools
+- [KTX-Software](https://github.com/KhronosGroup/KTX-Software/releases) installed with command line tools
 
 ## Installation
 
