@@ -10,3 +10,5 @@ vsc-extension-quickstart.md
 **/*.ts 
 pnpm-lock.yaml
 pnpm-workspace.yaml
+*.exr
+*.ktx2

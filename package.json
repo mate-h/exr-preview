@@ -1,8 +1,8 @@
 {
   "name": "exr-preview",
-  "displayName": "EXR/KTX2 Preview",
-  "description": "Preview EXR/KTX2 images in VSCode using OpenImageIO",
-  "version": "1.0.0",
+  "displayName": "HDR Preview",
+  "description": "Preview EXR/KTX2/HDR images in VSCode using OpenImageIO",
+  "version": "1.1.0",
   "engines": {
     "vscode": "^1.60.0"
   },
@@ -18,13 +18,16 @@
     "customEditors": [
       {
         "viewType": "exr-preview.exrPreview",
-        "displayName": "EXR/KTX2 Preview",
+        "displayName": "HDR Preview",
         "selector": [
           {
             "filenamePattern": "*.exr"
           },
           {
             "filenamePattern": "*.ktx2"
+          },
+          {
+            "filenamePattern": "*.hdr"
           }
         ],
         "priority": "default"
@@ -37,7 +40,8 @@
     "watch": "tsc -watch -p ./",
     "pretest": "npm run compile",
     "package": "vsce package",
-    "logo:png": "node rasterize.js"
+    "logo:png": "node rasterize.js",
+    "publish": "vsce publish"
   },
   "devDependencies": {
     "@resvg/resvg-js": "^2.6.2",
